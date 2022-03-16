@@ -5,15 +5,14 @@
  */
 package practica4;
 
-import Interfaz.Adulto;
-import Interfaz.NewInterface;
+
 import java.util.Date;
 
 /**
  *
  * @author Juan Llado
  */
-public class Barco implements NewInterface{
+public class Barco{
     
     private Adulto dueño;
     private String nombreBarco;
