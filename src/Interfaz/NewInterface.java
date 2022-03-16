@@ -3,19 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package practica4;
+package Interfaz;
 
 /**
  *
  * @author Juan Llado
  */
-public class Practica4 {
+public interface NewInterface {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+    void sonido();
     
 }
