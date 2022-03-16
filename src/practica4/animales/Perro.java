@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package practica4;
+package practica4.animales;
 
-import Interfaz.Adulto;
+import practica4.Interfaces.ISonido;
 
 /**
  *
  * @author Juan Llado
  */
-public class Perro extends Animal {
+public class Perro extends Animal implements ISonido {
     
     private Adulto dueño;
     private String raza;

@@ -1,15 +1,15 @@
 /*
  * Clase Gato
  */
-package practica4;
+package practica4.animales;
 
-import Interfaz.Adulto;
+import practica4.Interfaces.ISonido;
 
 /**
  *
  * @author Juan Llado
  */
-public class Gato extends Animal {
+public class Gato extends Animal implements ISonido {
     
     private String color;
     private Adulto dueño;
