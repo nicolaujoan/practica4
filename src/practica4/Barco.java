@@ -7,13 +7,12 @@ package practica4;
 
 
 import java.util.Date;
-import Interfaz.Adulto;
 
 /**
  *
  * @author Juan Llado
  */
-public class Barco{
+public class Barco implements ISonido{
     
     private Adulto dueño;
     private String nombreBarco;
