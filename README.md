@@ -96,10 +96,4 @@ git merge nuevaRamificacion
 [Tutorial versionado](https://www.youtube.com/watch?v=1B9iP611WUY&list=PLY1J8ju7Eq-TUBGmySQNivh2F1Yq0CgQj&index=18)
 
 [GitFlow](https://www.youtube.com/watch?v=atYIzPIeeQk&list=PLY1J8ju7Eq-TUBGmySQNivh2F1Yq0CgQj&index=19)
-=======
-# practica4
-Practica 4 entornos control de versiones
->>>>>>> 086598b28d682498f3e19e1bb7dc5898ee8ced01
-=======
 
->>>>>>> 200a321b25fe0412d6c1da443d0f5707529c1172
