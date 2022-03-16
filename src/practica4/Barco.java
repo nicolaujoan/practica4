@@ -7,6 +7,7 @@ package practica4;
 
 
 import java.util.Date;
+import Interfaz.Adulto;
 
 /**
  *
