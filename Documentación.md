@@ -7,7 +7,7 @@
 
 ### Pasos:
 
-1. Hager un git clone 
+1. Hacer un git clone 
 
 	```
     git clone https://github.com/JuanLlado/Practica4.git
@@ -16,7 +16,7 @@
 ![](img/)
 
 
-2. Mirar el historial de commits donde muestra todos los commits por líneas, el identificador y del tag
+2. Mirar el historial de commits donde muestra todos los commits por líneas, el identificador y el tag
 
     Comando: 
     ```
@@ -24,7 +24,7 @@
     ```
 ![](img/)
 
-3. Volver a una versión anterior. En este caso tendremos que volver a la versióntag 1.0.0
+3. Volver a una versión anterior. En este caso tendremos que volver a la versión del tag 1.0.0
    
     Comando:
     ```
@@ -57,7 +57,7 @@
 
 ### Realizar 2 refactorizaciones. 
 
-**Borar la iterfaz `newIntergace` e implementarlo por barco.**
+**Borar la iterfaz `newInterface` y que ya no sea implementada por barco.**
 
 1. Crear una interfaz llamada ISonido dentro de la carpeta `src/practica4`.
 2. Entrar en la clase Barco y en la linea dónde inicializa la clase (*public class 
@@ -66,7 +66,7 @@ Barco{...*) tendremos que implementar `ISonido`. Por lo que quedaría así:
     ![](img/interfazSonido.png)
 
 3. Subir a la rama develop con el comando `git push`. IMPORTANTE! En el caso de trabajar en equipo
-es importante hacer un `git pull` antes del de hacer un `git push`, es decir, 
+es importante hacer un `git pull` antes de hacer un `git push`, es decir, 
 primero hay que actualizar los cambios hechos antes de subirlos al GitHub. 
 
 **Crear un paquete nuevo y añadir la interfaz dentro** 
@@ -100,6 +100,7 @@ como se ve en las imagenes siguientes.
 ###### _Implemtar la interfaz ISonido a la clase gato_
    ![](img/perro.png)
 ###### _Implemtar la interfaz ISonido a la clase perro_
+además de sobreescribir el método para que cada animal tenga una implementación distinta
 4. Subir a la rama develop con el comando `git push`. IMPORTANTE! En el caso de trabajar en equipo
       es importante hacer un `git pull` antes del de hacer un `git push`, es decir,
       primero hay que actualizar los cambios hechos antes de subirlos al GitHub.
