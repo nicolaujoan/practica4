@@ -20,7 +20,7 @@
 
     Comando: 
     ```
-    git log –-oneline
+    git log --oneline
     ```
 ![](img/)
 
@@ -30,7 +30,6 @@
     ```
     git reset identificadorIDCommit
     ```
-![](img/)
 
 4. Mirar el historial de commits para confirmar que estemos en la versión que queremos.
 
@@ -38,22 +37,14 @@
     ```
     git log –online
     ```
-![](img/)
+para ello hacemos un git log para ver el id que buscamos:
+    ![log](./img/p4/gitlog_commit_inicial.png)
 
-5. Crear un nuevo repositorio para hacer los cambios a esa rama. 
+ahora que disponemos del id podemos hacer el reset:
 
-6. Clonar el repositorio, preparar para la refactorización para los cambios pertinentes. 
+![reset](./img/p4/git_reset.png)
 
-7. Hacer un tag en la versión para tenerlo en orden. 
 
-    Comando:
-
-    ```
-    git tag -a v1.0.0 -m "Rama de sesarrollo" e854037
-    ```
-###### _git tag -a NumVersión "Descripción" identificador_
-
-![](img/)
 
 ### Realizar 2 refactorizaciones. 
 
