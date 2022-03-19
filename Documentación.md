@@ -82,15 +82,16 @@ primero hay que actualizar los cambios hechos antes de subirlos al GitHub.
 Esta refactorización quedaría como `src/practica4/animales` y allí añadiremos `Animal.java` , 
 `Gato.java` , `Perro.java`.
    ![](img/package.png)
-3. Implemtar la interfaz `ISonido` a la clase animal, gato, perro. Por lo que tendremos 
+
+3. Implementar la interfaz `ISonido` a la clase animal, gato, perro. Por lo que tendremos 
 que entrar en cada uno de ellos y donde inicializa la clase añadir al lado `implements ISonido`
 como se ve en las imagenes siguientes.
    ![](img/animal.png)
-###### _Implemtar la interfaz ISonido a la clase animal_
+###### _Implementar la interfaz ISonido a la clase animal_
    ![](img/gato.png)
-###### _Implemtar la interfaz ISonido a la clase gato_
+###### _Implementar la interfaz ISonido a la clase gato_
    ![](img/perro.png)
-###### _Implemtar la interfaz ISonido a la clase perro_
+###### _Implementar la interfaz ISonido a la clase perro_
 además de sobreescribir el método para que cada animal tenga una implementación distinta
 4. Subir a la rama develop con el comando `git push`. IMPORTANTE! En el caso de trabajar en equipo
       es importante hacer un `git pull` antes del de hacer un `git push`, es decir,
@@ -101,4 +102,8 @@ además de sobreescribir el método para que cada animal tenga una implementaci�
 
     ```
     git tag -a v3.0.0 -m "Segunda refactorización" 870fda3
-    ```
+
+6. Uso de javadoc para documentar los métodos de nuestras clases:
+
+    ![javadoc](./img/Captura%20de%20pantalla%20de%202022-03-19%2015-53-03.png)
+    
